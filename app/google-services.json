@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "844494611539",
+    "firebase_url": "https://afaq-b195a.firebaseio.com",
+    "project_id": "afaq-b195a",
+    "storage_bucket": "afaq-b195a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844494611539:android:e96f7809b7b4a4634c52a6",
+        "android_client_info": {
+          "package_name": "com.mahmoudsaad.xarkas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844494611539-2qvl1i3ar9pdgt25h35h36sm90hhvlmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRVROnob4EwXLUK7xYL17i3o9_m-e3bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844494611539-2qvl1i3ar9pdgt25h35h36sm90hhvlmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

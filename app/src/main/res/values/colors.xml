@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#173A6D</color>
+    <color name="colorPrimaryDark">#173A6D</color>
+    <color name="colorAccent">#5663FF</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="colorPrimaryDarker">#173A6D</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cod_gray">#181818</color>
+
+
+    <!--  app custom colors  -->
+    <color name="gray">#B8C3D1</color>
+    <color name="blue_gray">#4F596F</color>
+    <color name="blue_hot">#3478FF</color>
+    <color name="white_transparent">#24ffffff</color>
+    <color name="black_transparent">#24000000</color>
+    <color name="blur_transparent">#48000000</color>
+    <color name="purple">#495ABF</color>
+    <color name="sky_light">#D7E1F4</color>
+    <color name="sky_medium">#98B3F2</color>
+
+    <color name="facebook_blue">#4267b2</color>
+    <color name="line_green_gray">#42463A</color>
+    <color name="silver">#f4f6f8</color>
+    <color name="gray_dark">#242A38</color>
+    <color name="feed_content_color">#4F596F</color>
+
+    <color name="toolbar_text_color">#183B6B</color>
+
+    <color name="violet_red">#8D1B3D</color>
+
+
+</resources>

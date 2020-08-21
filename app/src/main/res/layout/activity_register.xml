@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/tajawal_black"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xarkas"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_33sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:fontFamily="@font/tajawal_bold"
+            app:tint="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tajawal_bold"
+            android:text="@string/create_an_account"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tajawal_regular"
+            android:text="@string/enter_your_information"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/first_name"
+            android:textColorHint="@color/sky_medium"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:hintTextColor="@color/sky_medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawal_bold"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorPrimary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/last_name"
+            android:textColorHint="@color/sky_medium"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:hintTextColor="@color/sky_medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawal_bold"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorPrimary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/email"
+            android:textColorHint="@color/sky_medium"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:hintTextColor="@color/sky_medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawal_bold"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/phone"
+            android:textColorHint="@color/sky_medium"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:hintTextColor="@color/sky_medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawal_bold"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/password"
+            android:textColorHint="@color/sky_medium"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/colorPrimary"
+            app:hintTextColor="@color/sky_medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawal_bold"
+                android:inputType="textPassword"
+                android:letterSpacing=".3"
+                android:textColor="@color/colorPrimary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="@font/tajawal_black"
+            android:gravity="center"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:text="@string/continue_to"
+            android:textColor="@color/white"
+            app:cornerRadius="@dimen/_6sdp"
+            app:icon="@drawable/btn_right_arrow_white"
+            app:iconGravity="textEnd"
+            app:iconPadding="@dimen/_16sdp"
+            app:iconSize="@dimen/_20sdp"
+            app:iconTint="@null" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:fontFamily="@font/tajawal_bold"
+                android:gravity="center"
+                android:text="@string/have_an_account"
+                android:textColor="@color/sky_medium"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/tajawal_black"
+                android:gravity="center"
+                android:text="@string/sign_in"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

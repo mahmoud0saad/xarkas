@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xarkas</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="some_error">حدث خطأ ما</string>
+    <!-- Strings related to login -->
+    <string name="sign_in">دخول</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="error_invalid_email">بريد إلكتروني غير صحيح</string>
+    <string name="empty_password">كلمة المرور فارغة</string>
+    <string name="empty_email">البريد الإلكتروني فارغ</string>
+    <string name="error_invalid_password">كلمة المرور قصيرة</string>
+    <string name="error_field_required">هذا الحقل إلزامي</string>
+    <string name="error_invalid_email_phone">الهاتف غير صحيحين</string>
+    <string name="input_empty_email_phone">البريد الإلكتروني أو الهاتف فارغان</string>
+    <string name="input_empty_name">الإسم فارغ</string>
+
+</resources>
